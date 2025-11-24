@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Env files (contain secrets)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional: output of tests, coverage reports
+coverage/
+
+# Build artifacts
+dist/
+build/
+
+# Mac system files
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Local development database files (if any)
+*.sqlite
